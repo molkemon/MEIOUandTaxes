@@ -1,0 +1,4 @@
+﻿l_english:
+ mtui_guides_hide_desc: "Many tooltips end with a short guide below a line: what the value is, why it matters and how to change it.\n\nTurn the guides off to see only the values and their breakdowns."
+ mtui_guides_show_desc: "Many tooltips end with a short guide below a line: what the value is, why it matters and how to change it.\n\nTurn the guides on again."
+ mtui_guide_none: ""

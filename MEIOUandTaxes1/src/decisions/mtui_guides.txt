@@ -1,0 +1,25 @@
+# Switch for the optional tooltip explanations (country flag mtui_guides_off)
+country_decisions = {
+	mtui_guides_hide = {
+		major = yes
+		potential = {
+			ai = no
+			has_country_flag = UI_Utility_Decisions_On
+			NOT = { has_country_flag = mtui_guides_off }
+		}
+		allow = { always = yes }
+		effect = { hidden_effect = { set_country_flag = mtui_guides_off } }
+		ai_will_do = { factor = 0 }
+	}
+	mtui_guides_show = {
+		major = yes
+		potential = {
+			ai = no
+			has_country_flag = UI_Utility_Decisions_On
+			has_country_flag = mtui_guides_off
+		}
+		allow = { always = yes }
+		effect = { hidden_effect = { clr_country_flag = mtui_guides_off } }
+		ai_will_do = { factor = 0 }
+	}
+}
