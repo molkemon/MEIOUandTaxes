@@ -12285,3 +12285,7 @@ SkillCapIndu59
 CE_BestId
 CE_CandCount
 CE_TreeCount
+Mil_TechCostCache
+Mil_ArtFracCache
+Prov_LocalAutonomyCache
+Prov_NationalismCache

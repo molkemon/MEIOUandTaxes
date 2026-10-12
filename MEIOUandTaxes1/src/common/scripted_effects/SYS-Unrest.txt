@@ -103,7 +103,8 @@ POP_GetArmyBU = {
 	set_key = { lhs = $return$ value = 0 }
 	change_key = { lhs = $return$ which = Tax_MP }
 	
-    export_to_key = { lhs = Tmp_0 value = local_autonomy }
+    export_to_key = { lhs = Prov_LocalAutonomyCache value = local_autonomy } # read once, reused by Unrest_GetSuppressRebellion
+    set_key = { lhs = Tmp_0 which = Prov_LocalAutonomyCache }
     multiply_key = { lhs = Tmp_0 value = -0.01 }
     multiply_key = { lhs = Tmp_0 value = 0.5 }
     change_key = { lhs = Tmp_0 value = 1.5 }
@@ -297,7 +298,7 @@ Unrest_GetSuppressRebellion = {
 	# Bureaucratic incomptence is equal to benign neglect, supressing rebellion
 	# This only matters when theres an actual bureau neglecting them
 	# AKA Unrest reduction from LA
-    export_to_key = { lhs = Tmp_0 value = local_autonomy }
+    set_key = { lhs = Tmp_0 which = Prov_LocalAutonomyCache } # local_autonomy, exported in POP_GetArmyBU (Unrest_DoMain)
     multiply_key = { lhs = Tmp_0 value = 0.01 }
     multiply_key = { lhs = Tmp_0 which = Prov_BUPow }
     multiply_key = { lhs = Tmp_0 value = 0.01 }
