@@ -1,0 +1,1921 @@
+# Optional tooltip explanations, hidden by the country flag mtui_guides_off
+defined_text = {
+	name = mtui_at_o_est_no_wealth_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_no_wealth_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_no_income_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_no_income_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_no_land_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_no_land_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_no_prop_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_no_prop_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_bg_wealth_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_bg_wealth_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_bg_income_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_bg_income_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_bg_land_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_bg_land_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_bg_prop_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_bg_prop_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_cl_wealth_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_cl_wealth_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_cl_income_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_cl_income_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_cl_land_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_cl_land_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_est_cl_prop_tt_guide
+	text = {
+		localisation_key = mtui_at_o_est_cl_prop_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_tr_rank_n_tt_guide
+	text = {
+		localisation_key = mtui_at_o_tr_rank_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_tr_rank_v_tt_guide
+	text = {
+		localisation_key = mtui_at_o_tr_rank_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_tr_tcent_n_tt_guide
+	text = {
+		localisation_key = mtui_at_o_tr_tcent_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_tr_tcent_v_tt_guide
+	text = {
+		localisation_key = mtui_at_o_tr_tcent_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_tr_tariff_n_tt_guide
+	text = {
+		localisation_key = mtui_at_o_tr_tariff_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_tr_tariff_v_tt_guide
+	text = {
+		localisation_key = mtui_at_o_tr_tariff_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_tr_commerce_n_tt_guide
+	text = {
+		localisation_key = mtui_at_o_tr_commerce_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_o_tr_commerce_v_tt_guide
+	text = {
+		localisation_key = mtui_at_o_tr_commerce_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_rev_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_rev_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_rev_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_rev_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_direct_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_direct_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_direct_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_direct_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_direct_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_direct_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_indirect_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_indirect_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_indirect_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_indirect_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_indirect_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_indirect_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_special_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_special_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_special_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_special_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_special_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_special_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_farming_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_farming_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_farming_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_farming_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_farming_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_farming_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_corruption_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_corruption_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_corruption_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_corruption_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_corruption_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_corruption_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_sf_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_sf_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_sf_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_sf_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_sf_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_sf_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_re_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_re_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_re_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_re_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_re_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_re_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_no_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_no_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_no_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_no_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_no_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_no_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_bg_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_bg_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_bg_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_bg_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_bg_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_bg_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_cl_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_cl_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_cl_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_cl_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_cl_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_cl_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_tr_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_tr_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_tr_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_tr_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_cls_tr_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_cls_tr_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_exp_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_exp_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_exp_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_exp_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_wages_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_wages_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_wages_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_wages_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_wages_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_wages_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_milmaint_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_milmaint_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_milmaint_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_milmaint_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_milmaint_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_milmaint_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_milrec_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_milrec_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_milrec_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_milrec_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_milrec_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_milrec_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_propneg_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_propneg_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_propneg_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_propneg_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_propneg_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_propneg_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_infra_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_infra_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_infra_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_infra_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_infra_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_infra_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_dole_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_dole_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_dole_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_dole_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_dole_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_dole_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_colonial_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_colonial_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_colonial_p_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_colonial_p_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_colonial_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_colonial_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_bal_n_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_bal_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_t_bal_v_tt_guide
+	text = {
+		localisation_key = mtui_at_b_t_bal_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_if_Capitol_tt_guide
+	text = {
+		localisation_key = mtui_at_b_if_Capitol_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_if_Harbourage_tt_guide
+	text = {
+		localisation_key = mtui_at_b_if_Harbourage_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_if_Amenities_tt_guide
+	text = {
+		localisation_key = mtui_at_b_if_Amenities_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_if_Pathing_tt_guide
+	text = {
+		localisation_key = mtui_at_b_if_Pathing_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_if_Irrigation_tt_guide
+	text = {
+		localisation_key = mtui_at_b_if_Irrigation_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_b_if_Garrison_tt_guide
+	text = {
+		localisation_key = mtui_at_b_if_Garrison_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUOffice_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUOffice_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUOffice_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUOffice_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUFarm_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUFarm_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUFarm_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUFarm_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUTenure_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUTenure_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUTenure_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUTenure_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUWages_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUWages_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUWages_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUWages_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUHierarchy_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUHierarchy_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUHierarchy_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUHierarchy_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUHire_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUHire_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUHire_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUHire_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUExams_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUExams_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUExams_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUExams_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUOversight_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUOversight_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUOversight_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUOversight_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUEnlist_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUEnlist_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUEnlist_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUEnlist_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUStructure_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUStructure_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUStructure_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUStructure_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUCourts_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUCourts_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUCourts_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUCourts_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUPolitics_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUPolitics_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BUPolitics_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BUPolitics_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BURotate_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BURotate_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rf_BURotate_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rf_BURotate_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rt_BUTax_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rt_BUTax_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rt_BUTax_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rt_BUTax_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rt_BUDir_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rt_BUDir_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rt_BUDir_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rt_BUDir_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rt_BUInd_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rt_BUInd_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rt_BUInd_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rt_BUInd_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rt_BUSer_n_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rt_BUSer_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_rt_BUSer_l_tt_guide
+	text = {
+		localisation_key = mtui_at_s_rt_BUSer_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_pk_st_tt_guide
+	text = {
+		localisation_key = mtui_at_s_pk_st_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_s_pk_sev_tt_guide
+	text = {
+		localisation_key = mtui_at_s_pk_sev_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOProcessing_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOProcessing_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOProcessing_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOProcessing_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOGame_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOGame_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOGame_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOGame_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOForestry_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOForestry_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOForestry_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOForestry_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOSeigneurial_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOSeigneurial_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOSeigneurial_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOSeigneurial_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOTitles_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOTitles_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOTitles_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOTitles_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOAutonomy_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOAutonomy_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOAutonomy_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOAutonomy_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NODiplomacy_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NODiplomacy_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NODiplomacy_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NODiplomacy_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NODynastic_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NODynastic_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NODynastic_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NODynastic_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOHierarchy_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOHierarchy_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOHierarchy_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOHierarchy_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOTaxE_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOTaxE_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOTaxE_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOTaxE_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOServiceE_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOServiceE_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_pv_NOServiceE_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_pv_NOServiceE_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_wealth_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_wealth_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_wealth_v_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_wealth_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_income_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_income_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_income_v_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_income_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_rel_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_rel_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_rel_v_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_rel_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_land_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_land_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_land_v_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_land_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_prop_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_prop_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_gl_prop_v_tt_guide
+	text = {
+		localisation_key = mtui_at_no_gl_prop_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_rt_NOGov_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_rt_NOGov_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_rt_NOGov_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_rt_NOGov_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_rt_NOObl_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_rt_NOObl_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_rt_NOObl_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_rt_NOObl_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_rt_NOTen_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_rt_NOTen_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_rt_NOTen_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_rt_NOTen_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_rt_NOSer_n_tt_guide
+	text = {
+		localisation_key = mtui_at_no_rt_NOSer_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_no_rt_NOSer_l_tt_guide
+	text = {
+		localisation_key = mtui_at_no_rt_NOSer_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGIndustry_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGIndustry_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGIndustry_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGIndustry_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGLuxury_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGLuxury_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGLuxury_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGLuxury_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGConsumerGoods_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGConsumerGoods_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGConsumerGoods_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGConsumerGoods_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGAutonomy_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGAutonomy_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGAutonomy_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGAutonomy_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGPatent_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGPatent_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGPatent_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGPatent_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGCivic_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGCivic_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGCivic_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGCivic_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGOligopolization_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGOligopolization_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGOligopolization_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGOligopolization_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGRuralOwnership_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGRuralOwnership_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGRuralOwnership_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGRuralOwnership_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGGuild_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGGuild_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGGuild_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGGuild_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGLicensing_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGLicensing_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGLicensing_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGLicensing_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGTaxE_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGTaxE_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGTaxE_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGTaxE_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGServiceE_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGServiceE_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_pv_BGServiceE_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_pv_BGServiceE_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_wealth_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_wealth_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_wealth_v_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_wealth_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_income_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_income_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_income_v_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_income_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_rel_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_rel_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_rel_v_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_rel_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_land_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_land_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_land_v_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_land_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_prop_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_prop_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_gl_prop_v_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_gl_prop_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_rt_BGCom_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_rt_BGCom_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_rt_BGCom_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_rt_BGCom_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_rt_BGGov_n_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_rt_BGGov_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_bg_rt_BGGov_l_tt_guide
+	text = {
+		localisation_key = mtui_at_bg_rt_BGGov_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLImmunity_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLImmunity_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLImmunity_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLImmunity_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLLearning_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLLearning_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLLearning_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLLearning_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLAttendance_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLAttendance_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLAttendance_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLAttendance_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLBlasphemy_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLBlasphemy_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLBlasphemy_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLBlasphemy_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLOffice_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLOffice_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLOffice_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLOffice_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLAppointments_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLAppointments_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLAppointments_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLAppointments_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLPilgrimage_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLPilgrimage_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLPilgrimage_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLPilgrimage_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLInquisition_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLInquisition_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLInquisition_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLInquisition_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLTaxE_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLTaxE_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLTaxE_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLTaxE_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLServiceE_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLServiceE_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_pv_CLServiceE_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_pv_CLServiceE_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_wealth_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_wealth_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_wealth_v_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_wealth_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_income_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_income_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_income_v_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_income_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_rel_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_rel_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_rel_v_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_rel_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_land_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_land_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_land_v_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_land_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_prop_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_prop_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_gl_prop_v_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_gl_prop_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_rt_CLHie_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_rt_CLHie_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_rt_CLHie_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_rt_CLHie_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_rt_CLObl_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_rt_CLObl_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_rt_CLObl_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_rt_CLObl_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_rt_CLTax_n_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_rt_CLTax_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_cl_rt_CLTax_l_tt_guide
+	text = {
+		localisation_key = mtui_at_cl_rt_CLTax_l_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_tr_gl_income_n_tt_guide
+	text = {
+		localisation_key = mtui_at_tr_gl_income_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_tr_gl_income_v_tt_guide
+	text = {
+		localisation_key = mtui_at_tr_gl_income_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_tr_gl_rel_n_tt_guide
+	text = {
+		localisation_key = mtui_at_tr_gl_rel_n_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_at_tr_gl_rel_v_tt_guide
+	text = {
+		localisation_key = mtui_at_tr_gl_rel_v_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}

@@ -1,0 +1,134 @@
+spriteTypes = {
+	spriteType = { name = "GFX_mtui_atlas_bg" texturefile = "gfx/interface/atlas/atlas_bg.dds" }
+	spriteType = { name = "GFX_mtui_atlas_tab" texturefile = "gfx/interface/atlas/atlas_tab.dds" }
+	spriteType = { name = "GFX_mtui_atlas_tab_off" texturefile = "gfx/interface/atlas/atlas_tab_off.dds" }
+	spriteType = { name = "GFX_mtui_atlas_tab_on" texturefile = "gfx/interface/atlas/atlas_tab_on.dds" }
+	spriteType = { name = "GFX_mtui_atlas_btn_wide" texturefile = "gfx/interface/atlas/atlas_btn_wide.dds" }
+	spriteType = { name = "GFX_mtui_atlas_pill_sel" texturefile = "gfx/interface/atlas/atlas_pill_sel.dds" }
+	spriteType = { name = "GFX_mtui_atlas_launcher" texturefile = "gfx/interface/atlas/atlas_launcher.dds" }
+	spriteType = { name = "GFX_mtui_atlas_header" texturefile = "gfx/interface/atlas/atlas_header.dds" }
+	spriteType = { name = "GFX_mtui_atlas_panel_336x591" texturefile = "gfx/interface/atlas/atlas_panel_336x591.dds" }
+	spriteType = { name = "GFX_mtui_atlas_panel_682x591" texturefile = "gfx/interface/atlas/atlas_panel_682x591.dds" }
+	spriteType = { name = "GFX_mtui_lv_BUOffice" texturefile = "gfx/interface/atlas/mtui_lv_BUOffice.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUOffice_on" texturefile = "gfx/interface/atlas/mtui_lv_BUOffice_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUFarm" texturefile = "gfx/interface/atlas/mtui_lv_BUFarm.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUFarm_on" texturefile = "gfx/interface/atlas/mtui_lv_BUFarm_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUTenure" texturefile = "gfx/interface/atlas/mtui_lv_BUTenure.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUTenure_on" texturefile = "gfx/interface/atlas/mtui_lv_BUTenure_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUWages" texturefile = "gfx/interface/atlas/mtui_lv_BUWages.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BUWages_on" texturefile = "gfx/interface/atlas/mtui_lv_BUWages_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BUHierarchy" texturefile = "gfx/interface/atlas/mtui_lv_BUHierarchy.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUHierarchy_on" texturefile = "gfx/interface/atlas/mtui_lv_BUHierarchy_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUHire" texturefile = "gfx/interface/atlas/mtui_lv_BUHire.dds" noOfFrames = 5 }
+	spriteType = { name = "GFX_mtui_lv_BUHire_on" texturefile = "gfx/interface/atlas/mtui_lv_BUHire_on.dds" noOfFrames = 5 }
+	spriteType = { name = "GFX_mtui_lv_BUExams" texturefile = "gfx/interface/atlas/mtui_lv_BUExams.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BUExams_on" texturefile = "gfx/interface/atlas/mtui_lv_BUExams_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BUOversight" texturefile = "gfx/interface/atlas/mtui_lv_BUOversight.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUOversight_on" texturefile = "gfx/interface/atlas/mtui_lv_BUOversight_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUEnlist" texturefile = "gfx/interface/atlas/mtui_lv_BUEnlist.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUEnlist_on" texturefile = "gfx/interface/atlas/mtui_lv_BUEnlist_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BUStructure" texturefile = "gfx/interface/atlas/mtui_lv_BUStructure.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BUStructure_on" texturefile = "gfx/interface/atlas/mtui_lv_BUStructure_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BUCourts" texturefile = "gfx/interface/atlas/mtui_lv_BUCourts.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BUCourts_on" texturefile = "gfx/interface/atlas/mtui_lv_BUCourts_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BUPolitics" texturefile = "gfx/interface/atlas/mtui_lv_BUPolitics.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BUPolitics_on" texturefile = "gfx/interface/atlas/mtui_lv_BUPolitics_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BURotate" texturefile = "gfx/interface/atlas/mtui_lv_BURotate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_mtui_lv_BURotate_on" texturefile = "gfx/interface/atlas/mtui_lv_BURotate_on.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_mtui_lv_RBUTax" texturefile = "gfx/interface/atlas/mtui_lv_RBUTax.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_RBUTax_on" texturefile = "gfx/interface/atlas/mtui_lv_RBUTax_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_RBUDir" texturefile = "gfx/interface/atlas/mtui_lv_RBUDir.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RBUDir_on" texturefile = "gfx/interface/atlas/mtui_lv_RBUDir_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RBUInd" texturefile = "gfx/interface/atlas/mtui_lv_RBUInd.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RBUInd_on" texturefile = "gfx/interface/atlas/mtui_lv_RBUInd_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RBUSer" texturefile = "gfx/interface/atlas/mtui_lv_RBUSer.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_RBUSer_on" texturefile = "gfx/interface/atlas/mtui_lv_RBUSer_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_NOProcessing" texturefile = "gfx/interface/atlas/mtui_lv_NOProcessing.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NOProcessing_on" texturefile = "gfx/interface/atlas/mtui_lv_NOProcessing_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NOGame" texturefile = "gfx/interface/atlas/mtui_lv_NOGame.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NOGame_on" texturefile = "gfx/interface/atlas/mtui_lv_NOGame_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NOForestry" texturefile = "gfx/interface/atlas/mtui_lv_NOForestry.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NOForestry_on" texturefile = "gfx/interface/atlas/mtui_lv_NOForestry_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NOSeigneurial" texturefile = "gfx/interface/atlas/mtui_lv_NOSeigneurial.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_NOSeigneurial_on" texturefile = "gfx/interface/atlas/mtui_lv_NOSeigneurial_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_NOTitles" texturefile = "gfx/interface/atlas/mtui_lv_NOTitles.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_NOTitles_on" texturefile = "gfx/interface/atlas/mtui_lv_NOTitles_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_NOAutonomy" texturefile = "gfx/interface/atlas/mtui_lv_NOAutonomy.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_NOAutonomy_on" texturefile = "gfx/interface/atlas/mtui_lv_NOAutonomy_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_NODiplomacy" texturefile = "gfx/interface/atlas/mtui_lv_NODiplomacy.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NODiplomacy_on" texturefile = "gfx/interface/atlas/mtui_lv_NODiplomacy_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NODynastic" texturefile = "gfx/interface/atlas/mtui_lv_NODynastic.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NODynastic_on" texturefile = "gfx/interface/atlas/mtui_lv_NODynastic_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_NOHierarchy" texturefile = "gfx/interface/atlas/mtui_lv_NOHierarchy.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_NOHierarchy_on" texturefile = "gfx/interface/atlas/mtui_lv_NOHierarchy_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_NOTaxE" texturefile = "gfx/interface/atlas/mtui_lv_NOTaxE.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_NOTaxE_on" texturefile = "gfx/interface/atlas/mtui_lv_NOTaxE_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_NOServiceE" texturefile = "gfx/interface/atlas/mtui_lv_NOServiceE.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_NOServiceE_on" texturefile = "gfx/interface/atlas/mtui_lv_NOServiceE_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_RNOGov" texturefile = "gfx/interface/atlas/mtui_lv_RNOGov.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_RNOGov_on" texturefile = "gfx/interface/atlas/mtui_lv_RNOGov_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_RNOObl" texturefile = "gfx/interface/atlas/mtui_lv_RNOObl.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RNOObl_on" texturefile = "gfx/interface/atlas/mtui_lv_RNOObl_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RNOTen" texturefile = "gfx/interface/atlas/mtui_lv_RNOTen.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_RNOTen_on" texturefile = "gfx/interface/atlas/mtui_lv_RNOTen_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_RNOSer" texturefile = "gfx/interface/atlas/mtui_lv_RNOSer.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_RNOSer_on" texturefile = "gfx/interface/atlas/mtui_lv_RNOSer_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_BGIndustry" texturefile = "gfx/interface/atlas/mtui_lv_BGIndustry.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BGIndustry_on" texturefile = "gfx/interface/atlas/mtui_lv_BGIndustry_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BGLuxury" texturefile = "gfx/interface/atlas/mtui_lv_BGLuxury.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BGLuxury_on" texturefile = "gfx/interface/atlas/mtui_lv_BGLuxury_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BGConsumerGoods" texturefile = "gfx/interface/atlas/mtui_lv_BGConsumerGoods.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BGConsumerGoods_on" texturefile = "gfx/interface/atlas/mtui_lv_BGConsumerGoods_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_BGAutonomy" texturefile = "gfx/interface/atlas/mtui_lv_BGAutonomy.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_BGAutonomy_on" texturefile = "gfx/interface/atlas/mtui_lv_BGAutonomy_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_BGPatent" texturefile = "gfx/interface/atlas/mtui_lv_BGPatent.dds" noOfFrames = 5 }
+	spriteType = { name = "GFX_mtui_lv_BGPatent_on" texturefile = "gfx/interface/atlas/mtui_lv_BGPatent_on.dds" noOfFrames = 5 }
+	spriteType = { name = "GFX_mtui_lv_BGCivic" texturefile = "gfx/interface/atlas/mtui_lv_BGCivic.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BGCivic_on" texturefile = "gfx/interface/atlas/mtui_lv_BGCivic_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BGOligopolization" texturefile = "gfx/interface/atlas/mtui_lv_BGOligopolization.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BGOligopolization_on" texturefile = "gfx/interface/atlas/mtui_lv_BGOligopolization_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BGRuralOwnership" texturefile = "gfx/interface/atlas/mtui_lv_BGRuralOwnership.dds" noOfFrames = 5 }
+	spriteType = { name = "GFX_mtui_lv_BGRuralOwnership_on" texturefile = "gfx/interface/atlas/mtui_lv_BGRuralOwnership_on.dds" noOfFrames = 5 }
+	spriteType = { name = "GFX_mtui_lv_BGGuild" texturefile = "gfx/interface/atlas/mtui_lv_BGGuild.dds" noOfFrames = 5 }
+	spriteType = { name = "GFX_mtui_lv_BGGuild_on" texturefile = "gfx/interface/atlas/mtui_lv_BGGuild_on.dds" noOfFrames = 5 }
+	spriteType = { name = "GFX_mtui_lv_BGLicensing" texturefile = "gfx/interface/atlas/mtui_lv_BGLicensing.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BGLicensing_on" texturefile = "gfx/interface/atlas/mtui_lv_BGLicensing_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_BGTaxE" texturefile = "gfx/interface/atlas/mtui_lv_BGTaxE.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_BGTaxE_on" texturefile = "gfx/interface/atlas/mtui_lv_BGTaxE_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_BGServiceE" texturefile = "gfx/interface/atlas/mtui_lv_BGServiceE.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_BGServiceE_on" texturefile = "gfx/interface/atlas/mtui_lv_BGServiceE_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_RBGCom" texturefile = "gfx/interface/atlas/mtui_lv_RBGCom.dds" noOfFrames = 10 }
+	spriteType = { name = "GFX_mtui_lv_RBGCom_on" texturefile = "gfx/interface/atlas/mtui_lv_RBGCom_on.dds" noOfFrames = 10 }
+	spriteType = { name = "GFX_mtui_lv_RBGCom_s" texturefile = "gfx/interface/atlas/mtui_lv_RBGCom_s.dds" noOfFrames = 10 }
+	spriteType = { name = "GFX_mtui_lv_RBGCom_s_on" texturefile = "gfx/interface/atlas/mtui_lv_RBGCom_s_on.dds" noOfFrames = 10 }
+	spriteType = { name = "GFX_mtui_lv_RBGGov" texturefile = "gfx/interface/atlas/mtui_lv_RBGGov.dds" noOfFrames = 7 }
+	spriteType = { name = "GFX_mtui_lv_RBGGov_on" texturefile = "gfx/interface/atlas/mtui_lv_RBGGov_on.dds" noOfFrames = 7 }
+	spriteType = { name = "GFX_mtui_lv_RBGGov_s" texturefile = "gfx/interface/atlas/mtui_lv_RBGGov_s.dds" noOfFrames = 7 }
+	spriteType = { name = "GFX_mtui_lv_RBGGov_s_on" texturefile = "gfx/interface/atlas/mtui_lv_RBGGov_s_on.dds" noOfFrames = 7 }
+	spriteType = { name = "GFX_mtui_lv_CLImmunity" texturefile = "gfx/interface/atlas/mtui_lv_CLImmunity.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_CLImmunity_on" texturefile = "gfx/interface/atlas/mtui_lv_CLImmunity_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_CLLearning" texturefile = "gfx/interface/atlas/mtui_lv_CLLearning.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_CLLearning_on" texturefile = "gfx/interface/atlas/mtui_lv_CLLearning_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_CLAttendance" texturefile = "gfx/interface/atlas/mtui_lv_CLAttendance.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_CLAttendance_on" texturefile = "gfx/interface/atlas/mtui_lv_CLAttendance_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_CLBlasphemy" texturefile = "gfx/interface/atlas/mtui_lv_CLBlasphemy.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_CLBlasphemy_on" texturefile = "gfx/interface/atlas/mtui_lv_CLBlasphemy_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_CLOffice" texturefile = "gfx/interface/atlas/mtui_lv_CLOffice.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_CLOffice_on" texturefile = "gfx/interface/atlas/mtui_lv_CLOffice_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_CLAppointments" texturefile = "gfx/interface/atlas/mtui_lv_CLAppointments.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_CLAppointments_on" texturefile = "gfx/interface/atlas/mtui_lv_CLAppointments_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_CLPilgrimage" texturefile = "gfx/interface/atlas/mtui_lv_CLPilgrimage.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_CLPilgrimage_on" texturefile = "gfx/interface/atlas/mtui_lv_CLPilgrimage_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_CLInquisition" texturefile = "gfx/interface/atlas/mtui_lv_CLInquisition.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_CLInquisition_on" texturefile = "gfx/interface/atlas/mtui_lv_CLInquisition_on.dds" noOfFrames = 4 }
+	spriteType = { name = "GFX_mtui_lv_CLTaxE" texturefile = "gfx/interface/atlas/mtui_lv_CLTaxE.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_CLTaxE_on" texturefile = "gfx/interface/atlas/mtui_lv_CLTaxE_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_CLServiceE" texturefile = "gfx/interface/atlas/mtui_lv_CLServiceE.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_CLServiceE_on" texturefile = "gfx/interface/atlas/mtui_lv_CLServiceE_on.dds" noOfFrames = 6 }
+	spriteType = { name = "GFX_mtui_lv_RCLHie" texturefile = "gfx/interface/atlas/mtui_lv_RCLHie.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RCLHie_on" texturefile = "gfx/interface/atlas/mtui_lv_RCLHie_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RCLObl" texturefile = "gfx/interface/atlas/mtui_lv_RCLObl.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RCLObl_on" texturefile = "gfx/interface/atlas/mtui_lv_RCLObl_on.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RCLTax" texturefile = "gfx/interface/atlas/mtui_lv_RCLTax.dds" noOfFrames = 3 }
+	spriteType = { name = "GFX_mtui_lv_RCLTax_on" texturefile = "gfx/interface/atlas/mtui_lv_RCLTax_on.dds" noOfFrames = 3 }
+}

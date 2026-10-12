@@ -1,0 +1,248 @@
+# Nation Atlas: copies of the values it shows, rounded for display (country scope, display only)
+mtui_atlas_values = {
+	# open reform package: recompute its effective severity (same as MEIOU's Rights.001 does)
+	if = { limit = { check_key = { lhs = Rights_Timer value = 1 } } Rights_CalcSeverity = yes }
+	set_var_from_key = { var = mtui_balance key = TaxD_Total }
+	set_var_from_key = { var = mtui_tmp key = Realm_Expenses }
+	subtract_variable = { which = mtui_balance which = mtui_tmp }
+	# trade: number of owned trade (sector) centres, the best rank among them, and that province as a global
+	# event target for the tooltip (player display only; the AI never presses Atlas buttons). Event targets
+	# are global, so each human player has a slot (mtui_mp_slot, numbered monthly by mtui_ui.1) and its own
+	# target mtui_best_sector_<slot>; a player without a slot yet (joined this month) takes the next free one
+	if = {
+		limit = { NOT = { check_variable = { which = mtui_mp_slot value = 1 } } }
+		AAA = { change_variable = { which = mtui_mp_slot value = 1 } }
+		set_variable = { which = mtui_mp_slot which = AAA }
+	}
+	set_variable = { which = mtui_a_rank value = 0 }
+	set_variable = { which = mtui_a_tcent value = 0 }
+	every_owned_province = {
+		limit = { has_province_flag = TN_SectorCent check_key = { lhs = Sector_ScoreDisp value = 1 } }
+		set_var_from_key = { var = mtui_a_rank key = Sector_ScoreDisp }
+		PREV = { change_variable = { which = mtui_a_tcent value = 1 } }
+		if = {
+			limit = { OR = { PREV = { NOT = { check_variable = { which = mtui_a_rank value = 0.5 } } } NOT = { check_variable = { which = mtui_a_rank which = PREV } } } }
+			PREV = { set_variable = { which = mtui_a_rank which = PREV } }
+			save_global_event_target_as = mtui_best_sector_tmp
+		}
+	}
+	if = {
+		limit = { check_variable = { which = mtui_a_rank value = 0.5 } }
+		if = { limit = { check_variable = { which = mtui_mp_slot value = 1 } NOT = { check_variable = { which = mtui_mp_slot value = 2 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_1 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 2 } NOT = { check_variable = { which = mtui_mp_slot value = 3 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_2 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 3 } NOT = { check_variable = { which = mtui_mp_slot value = 4 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_3 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 4 } NOT = { check_variable = { which = mtui_mp_slot value = 5 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_4 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 5 } NOT = { check_variable = { which = mtui_mp_slot value = 6 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_5 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 6 } NOT = { check_variable = { which = mtui_mp_slot value = 7 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_6 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 7 } NOT = { check_variable = { which = mtui_mp_slot value = 8 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_7 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 8 } NOT = { check_variable = { which = mtui_mp_slot value = 9 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_8 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 9 } NOT = { check_variable = { which = mtui_mp_slot value = 10 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_9 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 10 } NOT = { check_variable = { which = mtui_mp_slot value = 11 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_10 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 11 } NOT = { check_variable = { which = mtui_mp_slot value = 12 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_11 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 12 } NOT = { check_variable = { which = mtui_mp_slot value = 13 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_12 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 13 } NOT = { check_variable = { which = mtui_mp_slot value = 14 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_13 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 14 } NOT = { check_variable = { which = mtui_mp_slot value = 15 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_14 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 15 } NOT = { check_variable = { which = mtui_mp_slot value = 16 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_15 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 16 } NOT = { check_variable = { which = mtui_mp_slot value = 17 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_16 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 17 } NOT = { check_variable = { which = mtui_mp_slot value = 18 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_17 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 18 } NOT = { check_variable = { which = mtui_mp_slot value = 19 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_18 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 19 } NOT = { check_variable = { which = mtui_mp_slot value = 20 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_19 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 20 } NOT = { check_variable = { which = mtui_mp_slot value = 21 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_20 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 21 } NOT = { check_variable = { which = mtui_mp_slot value = 22 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_21 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 22 } NOT = { check_variable = { which = mtui_mp_slot value = 23 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_22 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 23 } NOT = { check_variable = { which = mtui_mp_slot value = 24 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_23 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 24 } NOT = { check_variable = { which = mtui_mp_slot value = 25 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_24 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 25 } NOT = { check_variable = { which = mtui_mp_slot value = 26 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_25 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 26 } NOT = { check_variable = { which = mtui_mp_slot value = 27 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_26 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 27 } NOT = { check_variable = { which = mtui_mp_slot value = 28 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_27 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 28 } NOT = { check_variable = { which = mtui_mp_slot value = 29 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_28 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 29 } NOT = { check_variable = { which = mtui_mp_slot value = 30 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_29 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 30 } NOT = { check_variable = { which = mtui_mp_slot value = 31 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_30 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 31 } NOT = { check_variable = { which = mtui_mp_slot value = 32 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_31 } }
+		else_if = { limit = { check_variable = { which = mtui_mp_slot value = 32 } NOT = { check_variable = { which = mtui_mp_slot value = 33 } } } event_target:mtui_best_sector_tmp = { save_global_event_target_as = mtui_best_sector_32 } }
+	}
+	set_var_from_key = { var = mtui_gross key = TaxD_Direct }
+	set_var_from_key = { var = mtui_tmp key = TaxD_Indirect }
+	change_variable = { which = mtui_gross which = mtui_tmp }
+	set_var_from_key = { var = mtui_tmp key = MTUI_Special }
+	change_variable = { which = mtui_gross which = mtui_tmp }
+	set_var_from_key = { var = mtui_exp key = Realm_Expenses }
+	set_var_from_key = { var = mtui_a_p_direct key = TaxD_Direct }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_direct which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_direct value = 100 }
+		mtui_round0 = { var = mtui_a_p_direct }
+	}
+	else = { set_variable = { which = mtui_a_p_direct value = 0 } }
+	set_var_from_key = { var = mtui_a_p_indirect key = TaxD_Indirect }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_indirect which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_indirect value = 100 }
+		mtui_round0 = { var = mtui_a_p_indirect }
+	}
+	else = { set_variable = { which = mtui_a_p_indirect value = 0 } }
+	set_var_from_key = { var = mtui_a_p_special key = MTUI_Special }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_special which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_special value = 100 }
+		mtui_round0 = { var = mtui_a_p_special }
+	}
+	else = { set_variable = { which = mtui_a_p_special value = 0 } }
+	set_var_from_key = { var = mtui_a_p_farming key = TaxD_Farming }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_farming which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_farming value = 100 }
+		mtui_round0 = { var = mtui_a_p_farming }
+	}
+	else = { set_variable = { which = mtui_a_p_farming value = 0 } }
+	set_var_from_key = { var = mtui_a_p_corruption key = TaxD_Corruption }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_corruption which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_corruption value = 100 }
+		mtui_round0 = { var = mtui_a_p_corruption }
+	}
+	else = { set_variable = { which = mtui_a_p_corruption value = 0 } }
+	set_var_from_key = { var = mtui_a_p_cls_sf key = TaxD_SF_BU }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_cls_sf which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_cls_sf value = 100 }
+		mtui_round0 = { var = mtui_a_p_cls_sf }
+	}
+	else = { set_variable = { which = mtui_a_p_cls_sf value = 0 } }
+	set_var_from_key = { var = mtui_a_p_cls_re key = TaxD_RE_BU }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_cls_re which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_cls_re value = 100 }
+		mtui_round0 = { var = mtui_a_p_cls_re }
+	}
+	else = { set_variable = { which = mtui_a_p_cls_re value = 0 } }
+	set_var_from_key = { var = mtui_a_p_cls_no key = TaxD_NO_BU }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_cls_no which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_cls_no value = 100 }
+		mtui_round0 = { var = mtui_a_p_cls_no }
+	}
+	else = { set_variable = { which = mtui_a_p_cls_no value = 0 } }
+	set_var_from_key = { var = mtui_a_p_cls_bg key = TaxD_BG_BU }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_cls_bg which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_cls_bg value = 100 }
+		mtui_round0 = { var = mtui_a_p_cls_bg }
+	}
+	else = { set_variable = { which = mtui_a_p_cls_bg value = 0 } }
+	set_var_from_key = { var = mtui_a_p_cls_cl key = TaxD_CL_BU }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_cls_cl which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_cls_cl value = 100 }
+		mtui_round0 = { var = mtui_a_p_cls_cl }
+	}
+	else = { set_variable = { which = mtui_a_p_cls_cl value = 0 } }
+	set_var_from_key = { var = mtui_a_p_cls_tr key = TaxD_TR_BU }
+	if = { limit = { check_variable = { which = mtui_gross value = 0.001 } }
+		divide_variable = { which = mtui_a_p_cls_tr which = mtui_gross }
+		multiply_variable = { which = mtui_a_p_cls_tr value = 100 }
+		mtui_round0 = { var = mtui_a_p_cls_tr }
+	}
+	else = { set_variable = { which = mtui_a_p_cls_tr value = 0 } }
+	set_var_from_key = { var = mtui_a_p_wages key = Admin_CostUni }
+	if = { limit = { check_variable = { which = mtui_exp value = 0.001 } }
+		divide_variable = { which = mtui_a_p_wages which = mtui_exp }
+		multiply_variable = { which = mtui_a_p_wages value = 100 }
+		mtui_round0 = { var = mtui_a_p_wages }
+	}
+	else = { set_variable = { which = mtui_a_p_wages value = 0 } }
+	set_var_from_key = { var = mtui_a_p_milmaint key = Mil_ManpowerExpenses }
+	if = { limit = { check_variable = { which = mtui_exp value = 0.001 } }
+		divide_variable = { which = mtui_a_p_milmaint which = mtui_exp }
+		multiply_variable = { which = mtui_a_p_milmaint value = 100 }
+		mtui_round0 = { var = mtui_a_p_milmaint }
+	}
+	else = { set_variable = { which = mtui_a_p_milmaint value = 0 } }
+	set_var_from_key = { var = mtui_a_p_milrec key = BU_SpendMPBuild }
+	if = { limit = { check_variable = { which = mtui_exp value = 0.001 } }
+		divide_variable = { which = mtui_a_p_milrec which = mtui_exp }
+		multiply_variable = { which = mtui_a_p_milrec value = 100 }
+		mtui_round0 = { var = mtui_a_p_milrec }
+	}
+	else = { set_variable = { which = mtui_a_p_milrec value = 0 } }
+	set_var_from_key = { var = mtui_a_p_propneg key = TaxD_BUPropertyNeg }
+	if = { limit = { check_variable = { which = mtui_exp value = 0.001 } }
+		divide_variable = { which = mtui_a_p_propneg which = mtui_exp }
+		multiply_variable = { which = mtui_a_p_propneg value = 100 }
+		mtui_round0 = { var = mtui_a_p_propneg }
+	}
+	else = { set_variable = { which = mtui_a_p_propneg value = 0 } }
+	set_var_from_key = { var = mtui_a_p_infra key = Infra_StateSpend }
+	if = { limit = { check_variable = { which = mtui_exp value = 0.001 } }
+		divide_variable = { which = mtui_a_p_infra which = mtui_exp }
+		multiply_variable = { which = mtui_a_p_infra value = 100 }
+		mtui_round0 = { var = mtui_a_p_infra }
+	}
+	else = { set_variable = { which = mtui_a_p_infra value = 0 } }
+	set_var_from_key = { var = mtui_a_p_dole key = Class_IncomeDole }
+	if = { limit = { check_variable = { which = mtui_exp value = 0.001 } }
+		divide_variable = { which = mtui_a_p_dole which = mtui_exp }
+		multiply_variable = { which = mtui_a_p_dole value = 100 }
+		mtui_round0 = { var = mtui_a_p_dole }
+	}
+	else = { set_variable = { which = mtui_a_p_dole value = 0 } }
+	set_var_from_key = { var = mtui_a_p_colonial key = Colonial_SubsidyDisp }
+	if = { limit = { check_variable = { which = mtui_exp value = 0.001 } }
+		divide_variable = { which = mtui_a_p_colonial which = mtui_exp }
+		multiply_variable = { which = mtui_a_p_colonial value = 100 }
+		mtui_round0 = { var = mtui_a_p_colonial }
+	}
+	else = { set_variable = { which = mtui_a_p_colonial value = 0 } }
+	set_var_from_key = { var = mtui_a_direct key = TaxD_Direct }
+	mtui_round0 = { var = mtui_a_direct }
+	set_var_from_key = { var = mtui_a_indirect key = TaxD_Indirect }
+	mtui_round0 = { var = mtui_a_indirect }
+	set_var_from_key = { var = mtui_a_farming key = TaxD_Farming }
+	mtui_round0 = { var = mtui_a_farming }
+	set_var_from_key = { var = mtui_a_corruption key = TaxD_Corruption }
+	mtui_round0 = { var = mtui_a_corruption }
+	set_var_from_key = { var = mtui_a_revenue key = TaxD_Total }
+	mtui_round0 = { var = mtui_a_revenue }
+	set_var_from_key = { var = mtui_a_special key = MTUI_Special }
+	mtui_round0 = { var = mtui_a_special }
+	set_var_from_key = { var = mtui_a_cls_sf key = TaxD_SF_BU }
+	mtui_round0 = { var = mtui_a_cls_sf }
+	set_var_from_key = { var = mtui_a_cls_re key = TaxD_RE_BU }
+	mtui_round0 = { var = mtui_a_cls_re }
+	set_var_from_key = { var = mtui_a_cls_no key = TaxD_NO_BU }
+	mtui_round0 = { var = mtui_a_cls_no }
+	set_var_from_key = { var = mtui_a_cls_bg key = TaxD_BG_BU }
+	mtui_round0 = { var = mtui_a_cls_bg }
+	set_var_from_key = { var = mtui_a_cls_cl key = TaxD_CL_BU }
+	mtui_round0 = { var = mtui_a_cls_cl }
+	set_var_from_key = { var = mtui_a_cls_tr key = TaxD_TR_BU }
+	mtui_round0 = { var = mtui_a_cls_tr }
+	set_var_from_key = { var = mtui_a_wages key = Admin_CostUni }
+	mtui_round0 = { var = mtui_a_wages }
+	set_var_from_key = { var = mtui_a_milmaint key = Mil_ManpowerExpenses }
+	mtui_round0 = { var = mtui_a_milmaint }
+	set_var_from_key = { var = mtui_a_milrec key = BU_SpendMPBuild }
+	mtui_round0 = { var = mtui_a_milrec }
+	set_var_from_key = { var = mtui_a_propneg key = TaxD_BUPropertyNeg }
+	mtui_round0 = { var = mtui_a_propneg }
+	set_var_from_key = { var = mtui_a_infra key = Infra_StateSpend }
+	mtui_round0 = { var = mtui_a_infra }
+	set_var_from_key = { var = mtui_a_dole key = Class_IncomeDole }
+	mtui_round0 = { var = mtui_a_dole }
+	set_var_from_key = { var = mtui_a_colonial key = Colonial_SubsidyDisp }
+	mtui_round0 = { var = mtui_a_colonial }
+	set_var_from_key = { var = mtui_a_expenses key = Realm_Expenses }
+	mtui_round0 = { var = mtui_a_expenses }
+	set_var_from_key = { var = mtui_a_milspend key = BU_SpendMP }
+	mtui_round0 = { var = mtui_a_milspend }
+	set_variable = { which = mtui_a_balance which = mtui_balance }
+	mtui_round0 = { var = mtui_a_balance }
+	set_var_from_key = { var = mtui_a_rf_timer key = Rights_Timer }
+	mtui_round0 = { var = mtui_a_rf_timer }
+	set_var_from_key = { var = mtui_a_rf_sev key = Rights_SeverityR }
+	mtui_round1 = { var = mtui_a_rf_sev }
+	set_var_from_key = { var = mtui_a_tariff key = Tariff_Income }
+	mtui_round0 = { var = mtui_a_tariff }
+	set_var_from_key = { var = mtui_a_commerce key = TaxD_BGCommerce }
+	mtui_round0 = { var = mtui_a_commerce }
+}
