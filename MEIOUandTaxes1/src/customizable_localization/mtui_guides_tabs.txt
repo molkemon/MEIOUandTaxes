@@ -1,0 +1,9 @@
+# Optional tooltip explanations, hidden by the country flag mtui_guides_off
+defined_text = {
+	name = mtui_tab1_button_tt_guide
+	text = {
+		localisation_key = mtui_tab1_button_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}

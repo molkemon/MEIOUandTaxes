@@ -1,0 +1,313 @@
+# Optional tooltip explanations, hidden by the country flag mtui_guides_off
+defined_text = {
+	name = mtui_pc_food_life_head_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_head_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_1_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_1_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_1_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_1_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_1_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_1_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_2_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_2_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_2_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_2_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_2_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_2_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_4_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_4_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_4_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_4_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_4_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_4_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_5_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_5_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_5_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_5_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_food_life_5_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_food_life_5_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_head_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_head_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_6_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_6_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_6_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_6_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_6_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_6_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_21_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_21_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_21_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_21_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_21_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_21_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_23_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_23_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_23_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_23_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_23_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_23_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_22_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_22_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_22_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_22_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_comfort_22_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_comfort_22_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_head_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_head_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_9_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_9_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_9_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_9_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_9_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_9_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_24_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_24_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_24_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_24_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_24_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_24_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_25_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_25_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_25_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_25_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_25_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_25_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_41_price_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_41_price_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_41_produced_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_41_produced_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_pc_luxury_41_demand_tt_guide
+	text = {
+		localisation_key = mtui_pc_luxury_41_demand_tt_guide_on
+		trigger = { NOT = { FROM = { has_country_flag = mtui_guides_off } } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
