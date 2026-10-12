@@ -6,6 +6,7 @@ AI_StateBuilding_CE = {
 	# Initialization
 
 	ce_cleanup = yes
+	ce_pick_begin = yes # setup of the dispatch selection (ce_set_runner_dispatching_province_land)
 
 	set_key = { lhs = tv_owned_provinces_in_state_in_progress value = 0 }
 	set_key = { lhs = tv_port value = 0 }
@@ -84,7 +85,9 @@ AI_StateBuilding_CE = {
 		set_key = { lhs = Tmp_7 value = 0 }
 
 		set_province_flag = CE_Cand
+		ce_pick_mark = yes
 	}
+	ce_pick_ready = yes
 
 	# Set runner_dispatching_province
 	capital_scope = {
@@ -457,7 +460,7 @@ AI_StateBuilding_CE = {
 				}
 				check_key = { lhs = RE_Total value = 60 } #only try to built capitol when the city is large enough to maintain it
 				Infra_CanCapitol = yes
-				NOT = { check_key = { lhs = Infra_Capitol value = 5 } } # never make the AI build past lvl 3
+				NOT = { check_key = { lhs = Infra_Capitol value = 5 } } # never make the AI build past lvl 5
 			}
 
 			set_key = { lhs = Public_Tmp1 which = Infra_CapitolGoal } # get capitol unit goal

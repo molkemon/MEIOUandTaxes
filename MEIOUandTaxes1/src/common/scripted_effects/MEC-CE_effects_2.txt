@@ -49,7 +49,10 @@ ce_get_cost_land = {
 	POP_GetLandTime = yes
 	
 	# Apply terrain penalty
+	# RoadImpact only scales the terrain part (Land_Travel - 1); the base 1 is already scaled by the pathing effect above
+	subtract_key = { lhs = Land_Travel value = 1 }
 	multiply_key = { lhs = Land_Travel which = CE_RoadImpact }
+	change_key = { lhs = Land_Travel value = 1 }
 	multiply_key = { lhs = $return$ which = Land_Travel }
 
 	set_key = { lhs = CE_RoadImpact value = 0 }
