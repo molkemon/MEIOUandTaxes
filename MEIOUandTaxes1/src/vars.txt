@@ -12289,3 +12289,5 @@ Mil_TechCostCache
 Mil_ArtFracCache
 Prov_LocalAutonomyCache
 Prov_NationalismCache
+MTUI_OtherIndirect
+MTUI_Special

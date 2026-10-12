@@ -1,0 +1,35 @@
+namespace = mtui_ui
+
+# Monthly, fired by the AAA pulse_system disaster: refresh UI values for human players only.
+country_event = {
+	id = mtui_ui.1
+	title = no_localisation
+	desc = no_localisation
+	picture = MEIOU_AND_TAXES_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+	trigger = { tag = AAA }
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { ai = no }
+				country_event = { id = mtui_ui.2 }
+			}
+		}
+	}
+	option = { name = no_localisation }
+}
+
+# Refresh one country's UI values (also fired from on_startup for human players).
+country_event = {
+	id = mtui_ui.2
+	title = no_localisation
+	desc = no_localisation
+	picture = MEIOU_AND_TAXES_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = { mtui_refresh_topbar = yes }
+	}
+	option = { name = no_localisation }
+}

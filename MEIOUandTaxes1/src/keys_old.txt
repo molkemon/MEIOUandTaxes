@@ -12223,3 +12223,5 @@ Mil_TechCostCache : scb
 Mil_ArtFracCache : scc
 Prov_LocalAutonomyCache : scd
 Prov_NationalismCache : sce
+MTUI_OtherIndirect : scf
+MTUI_Special : scg

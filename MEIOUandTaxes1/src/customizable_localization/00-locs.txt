@@ -207128,4 +207128,28 @@ defined_text = {
     text = {
         localisation_key = GV_0
     }
+}defined_text = {
+    name = GV_MTUI_OtherIndirect
+    random = no
+    text = {
+        trigger = {
+            NOT = { is_variable_equal = { which = scf value = 0 } }
+        }
+        localisation_key = GV_MTUI_OtherIndirect
+    }
+    text = {
+        localisation_key = GV_0
+    }
+}defined_text = {
+    name = GV_MTUI_Special
+    random = no
+    text = {
+        trigger = {
+            NOT = { is_variable_equal = { which = scg value = 0 } }
+        }
+        localisation_key = GV_MTUI_Special
+    }
+    text = {
+        localisation_key = GV_0
+    }
 }

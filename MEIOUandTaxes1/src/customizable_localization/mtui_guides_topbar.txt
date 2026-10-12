@@ -1,0 +1,257 @@
+# Optional tooltip explanations, hidden by the country flag mtui_guides_off
+defined_text = {
+	name = mtui_tb_pop_tt_guide
+	text = {
+		localisation_key = mtui_tb_pop_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_growth_tt_guide
+	text = {
+		localisation_key = mtui_tb_growth_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_wealth_tt_guide
+	text = {
+		localisation_key = mtui_tb_wealth_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_reach_tt_guide
+	text = {
+		localisation_key = mtui_tb_reach_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_stab_tt_guide
+	text = {
+		localisation_key = mtui_tb_stab_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_corrupt_tt_guide
+	text = {
+		localisation_key = mtui_tb_corrupt_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_income_tt_guide
+	text = {
+		localisation_key = mtui_tb_income_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_expense_tt_guide
+	text = {
+		localisation_key = mtui_tb_expense_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_milbudget_tt_guide
+	text = {
+		localisation_key = mtui_tb_milbudget_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_authority_tt_guide
+	text = {
+		localisation_key = mtui_tb_authority_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_autonomy_tt_guide
+	text = {
+		localisation_key = mtui_tb_autonomy_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_property_tt_guide
+	text = {
+		localisation_key = mtui_tb_property_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_no_loy_tt_guide
+	text = {
+		localisation_key = mtui_tb_no_loy_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_no_pow_tt_guide
+	text = {
+		localisation_key = mtui_tb_no_pow_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_bg_loy_tt_guide
+	text = {
+		localisation_key = mtui_tb_bg_loy_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_bg_pow_tt_guide
+	text = {
+		localisation_key = mtui_tb_bg_pow_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_cl_loy_tt_guide
+	text = {
+		localisation_key = mtui_tb_cl_loy_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_cl_pow_tt_guide
+	text = {
+		localisation_key = mtui_tb_cl_pow_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_tr_loy_tt_guide
+	text = {
+		localisation_key = mtui_tb_tr_loy_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_tr_pow_tt_guide
+	text = {
+		localisation_key = mtui_tb_tr_pow_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_gold_click_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_gold_click_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_manpower_click_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_manpower_click_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_sailors_click_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_sailors_click_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_stability_click_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_stability_click_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_corruption_click_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_corruption_click_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_prestige_click_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_prestige_click_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_leg_merit_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_leg_merit_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_leg_unity_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_leg_unity_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_leg_dev_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_leg_dev_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_leg_rep_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_leg_rep_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_leg_leg_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_leg_leg_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}
+defined_text = {
+	name = mtui_tb_icon_powerprojection_pp_tt_guide
+	text = {
+		localisation_key = mtui_tb_icon_powerprojection_pp_tt_guide_on
+		trigger = { NOT = { has_country_flag = mtui_guides_off } }
+	}
+	text = { localisation_key = mtui_guide_none }
+}

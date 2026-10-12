@@ -39,6 +39,7 @@ pulse_system = {
 			SYS_UI.002 # Privilege UI Update
 			SYS_UI.003 # Rights UI Update
 			phlopsi_ce_main.3
+			mtui_ui.1 # top bar and Nation Atlas values of human players
 			# is_month_january = yes
 			
 			# is_month_february = yes

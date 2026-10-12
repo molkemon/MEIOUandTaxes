@@ -24525,3 +24525,7 @@ l_english:
  scd: "Prov LocalAutonomyCache"
  GV_Prov_NationalismCache: "[This.sce.GetValue]"
  sce: "Prov NationalismCache"
+ GV_MTUI_OtherIndirect: "[This.scf.GetValue]"
+ scf: "MTUI OtherIndirect"
+ GV_MTUI_Special: "[This.scg.GetValue]"
+ scg: "MTUI Special"

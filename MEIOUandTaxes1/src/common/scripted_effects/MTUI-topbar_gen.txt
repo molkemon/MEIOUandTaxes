@@ -1,0 +1,45 @@
+# Top bar: copies of the values it shows, rounded for display (country scope).
+# Called from mtui_refresh_topbar after the sums. Display only, no simulation state is touched.
+mtui_topbar_values = {
+	set_variable = { which = mtui_v_pop which = mtui_pop }
+	mtui_round0 = { var = mtui_v_pop }
+	set_variable = { which = mtui_v_growth which = mtui_popchg }
+	mtui_round1 = { var = mtui_v_growth }
+	set_variable = { which = mtui_v_wealth which = mtui_wealth }
+	multiply_variable = { which = mtui_v_wealth value = 0.001 }
+	mtui_round1 = { var = mtui_v_wealth }
+	set_var_from_key = { var = mtui_v_reach key = Prov_BUPow }
+	mtui_round0 = { var = mtui_v_reach }
+	set_var_from_key = { var = mtui_v_stab key = Stab_Disp }
+	mtui_round0 = { var = mtui_v_stab }
+	set_var_from_key = { var = mtui_v_corrupt key = Prov_BULoy }
+	mtui_round0 = { var = mtui_v_corrupt }
+	set_var_from_key = { var = mtui_v_income key = TaxD_Total }
+	mtui_round0 = { var = mtui_v_income }
+	set_var_from_key = { var = mtui_v_expense key = Realm_Expenses }
+	mtui_round0 = { var = mtui_v_expense }
+	set_var_from_key = { var = mtui_v_milbudget key = Mil_BUBudgetMult }
+	mtui_round0 = { var = mtui_v_milbudget }
+	set_var_from_key = { var = mtui_v_authority key = Ruler_Power }
+	mtui_round0 = { var = mtui_v_authority }
+	set_variable = { which = mtui_v_autonomy which = mtui_autonomy }
+	mtui_round0 = { var = mtui_v_autonomy }
+	set_var_from_key = { var = mtui_v_property key = StatePropertyPercCap }
+	mtui_round0 = { var = mtui_v_property }
+	set_var_from_key = { var = mtui_v_no_loy key = Prov_NOLoy }
+	mtui_round0 = { var = mtui_v_no_loy }
+	set_var_from_key = { var = mtui_v_no_pow key = Prov_NOPow }
+	mtui_round0 = { var = mtui_v_no_pow }
+	set_var_from_key = { var = mtui_v_bg_loy key = Prov_BGLoy }
+	mtui_round0 = { var = mtui_v_bg_loy }
+	set_var_from_key = { var = mtui_v_bg_pow key = Prov_BGPow }
+	mtui_round0 = { var = mtui_v_bg_pow }
+	set_var_from_key = { var = mtui_v_cl_loy key = Prov_CLLoy }
+	mtui_round0 = { var = mtui_v_cl_loy }
+	set_var_from_key = { var = mtui_v_cl_pow key = Prov_CLPow }
+	mtui_round0 = { var = mtui_v_cl_pow }
+	set_var_from_key = { var = mtui_v_tr_loy key = Prov_TRLoy }
+	mtui_round0 = { var = mtui_v_tr_loy }
+	set_var_from_key = { var = mtui_v_tr_pow key = Prov_TRPow }
+	mtui_round0 = { var = mtui_v_tr_pow }
+}

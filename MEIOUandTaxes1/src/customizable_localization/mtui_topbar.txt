@@ -1,0 +1,179 @@
+# Top bar: number wrappers
+defined_text = {
+	name = mtui_V_pop
+	random = no
+	text = { localisation_key = mtui_V_pop_l }
+}
+defined_text = {
+	name = mtui_V_growth
+	random = no
+	text = { localisation_key = mtui_V_growth_l }
+}
+defined_text = {
+	name = mtui_V_wealth
+	random = no
+	text = { localisation_key = mtui_V_wealth_l }
+}
+defined_text = {
+	name = mtui_V_reach
+	random = no
+	text = { localisation_key = mtui_V_reach_l }
+}
+defined_text = {
+	name = mtui_V_stab
+	random = no
+	text = { localisation_key = mtui_V_stab_l }
+}
+defined_text = {
+	name = mtui_V_corrupt
+	random = no
+	text = { localisation_key = mtui_V_corrupt_l }
+}
+defined_text = {
+	name = mtui_C_corrupt
+	random = no
+	text = {
+		localisation_key = mtui_C_corrupt_G
+		trigger = { NOT = { check_variable = { which = mtui_v_corrupt value = 0.001 } } }
+	}
+	text = {
+		localisation_key = mtui_C_corrupt_Y
+		trigger = { NOT = { check_variable = { which = mtui_v_corrupt value = 30 } } }
+	}
+	text = { localisation_key = mtui_C_corrupt_R }
+}
+defined_text = {
+	name = mtui_V_income
+	random = no
+	text = { localisation_key = mtui_V_income_l }
+}
+defined_text = {
+	name = mtui_V_expense
+	random = no
+	text = { localisation_key = mtui_V_expense_l }
+}
+defined_text = {
+	name = mtui_V_milbudget
+	random = no
+	text = { localisation_key = mtui_V_milbudget_l }
+}
+defined_text = {
+	name = mtui_V_authority
+	random = no
+	text = { localisation_key = mtui_V_authority_l }
+}
+defined_text = {
+	name = mtui_C_authority
+	random = no
+	text = {
+		localisation_key = mtui_C_authority_G
+		trigger = { check_variable = { which = mtui_v_authority value = 65 } }
+	}
+	text = {
+		localisation_key = mtui_C_authority_Y
+		trigger = { check_variable = { which = mtui_v_authority value = 35 } }
+	}
+	text = { localisation_key = mtui_C_authority_R }
+}
+defined_text = {
+	name = mtui_V_autonomy
+	random = no
+	text = { localisation_key = mtui_V_autonomy_l }
+}
+defined_text = {
+	name = mtui_V_property
+	random = no
+	text = { localisation_key = mtui_V_property_l }
+}
+defined_text = {
+	name = mtui_V_no_loy
+	random = no
+	text = { localisation_key = mtui_V_no_loy_l }
+}
+defined_text = {
+	name = mtui_C_no_loy
+	random = no
+	text = {
+		localisation_key = mtui_C_no_loy_G
+		trigger = { check_variable = { which = mtui_v_no_loy value = 65 } }
+	}
+	text = {
+		localisation_key = mtui_C_no_loy_Y
+		trigger = { check_variable = { which = mtui_v_no_loy value = 35 } }
+	}
+	text = { localisation_key = mtui_C_no_loy_R }
+}
+defined_text = {
+	name = mtui_V_no_pow
+	random = no
+	text = { localisation_key = mtui_V_no_pow_l }
+}
+defined_text = {
+	name = mtui_V_bg_loy
+	random = no
+	text = { localisation_key = mtui_V_bg_loy_l }
+}
+defined_text = {
+	name = mtui_C_bg_loy
+	random = no
+	text = {
+		localisation_key = mtui_C_bg_loy_G
+		trigger = { check_variable = { which = mtui_v_bg_loy value = 65 } }
+	}
+	text = {
+		localisation_key = mtui_C_bg_loy_Y
+		trigger = { check_variable = { which = mtui_v_bg_loy value = 35 } }
+	}
+	text = { localisation_key = mtui_C_bg_loy_R }
+}
+defined_text = {
+	name = mtui_V_bg_pow
+	random = no
+	text = { localisation_key = mtui_V_bg_pow_l }
+}
+defined_text = {
+	name = mtui_V_cl_loy
+	random = no
+	text = { localisation_key = mtui_V_cl_loy_l }
+}
+defined_text = {
+	name = mtui_C_cl_loy
+	random = no
+	text = {
+		localisation_key = mtui_C_cl_loy_G
+		trigger = { check_variable = { which = mtui_v_cl_loy value = 65 } }
+	}
+	text = {
+		localisation_key = mtui_C_cl_loy_Y
+		trigger = { check_variable = { which = mtui_v_cl_loy value = 35 } }
+	}
+	text = { localisation_key = mtui_C_cl_loy_R }
+}
+defined_text = {
+	name = mtui_V_cl_pow
+	random = no
+	text = { localisation_key = mtui_V_cl_pow_l }
+}
+defined_text = {
+	name = mtui_V_tr_loy
+	random = no
+	text = { localisation_key = mtui_V_tr_loy_l }
+}
+defined_text = {
+	name = mtui_C_tr_loy
+	random = no
+	text = {
+		localisation_key = mtui_C_tr_loy_G
+		trigger = { check_variable = { which = mtui_v_tr_loy value = 65 } }
+	}
+	text = {
+		localisation_key = mtui_C_tr_loy_Y
+		trigger = { check_variable = { which = mtui_v_tr_loy value = 35 } }
+	}
+	text = { localisation_key = mtui_C_tr_loy_R }
+}
+defined_text = {
+	name = mtui_V_tr_pow
+	random = no
+	text = { localisation_key = mtui_V_tr_pow_l }
+}

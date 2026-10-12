@@ -1,6 +1,81 @@
 # Display helpers. Nothing here changes simulation state; everything writes either display keys
 # (Nat_* recalcs) or mtui_* variables.
 
+# Country scope. Refreshes every value shown in the top bar.
+mtui_refresh_topbar = {
+	Nat_Main = yes                 # national display values (dev, income display)
+	Nat_SumStats = yes             # estate / class sums used by many displays
+	Nat_CalcRealmExpenses = yes    # Realm_Expenses
+	mtui_budget_extra = yes        # parts of revenue without a national sum of their own (budget tooltips)
+	set_variable = { which = mtui_pop value = 0 }
+	set_variable = { which = mtui_popchg value = 0 }
+	set_variable = { which = mtui_wealth value = 0 }
+	set_variable = { which = mtui_nat value = 0 }
+	set_variable = { which = mtui_imm value = 0 }
+	set_variable = { which = mtui_emi value = 0 }
+	set_variable = { which = mtui_pop_sf value = 0 }
+	set_variable = { which = mtui_pop_nm value = 0 }
+	set_variable = { which = mtui_pop_re value = 0 }
+	set_variable = { which = mtui_pop_bg value = 0 }
+	set_variable = { which = mtui_pop_no value = 0 }
+	set_variable = { which = mtui_pop_cl value = 0 }
+	every_owned_province = {
+		set_var_from_key = { var = mtui_pop key = Class_Total }
+		set_var_from_key = { var = mtui_popchg key = Class_TotalChange }
+		# class savings only: MEIOU's Class_Wealth also holds the infrastructure pool (Infra_Wealth)
+		set_var_from_key = { var = mtui_wealth key = SF_Wealth }
+		change_var_by_key = { var = mtui_wealth key = NM_Wealth }
+		change_var_by_key = { var = mtui_wealth key = RE_Wealth }
+		change_var_by_key = { var = mtui_wealth key = BG_Wealth }
+		change_var_by_key = { var = mtui_wealth key = NO_Wealth }
+		change_var_by_key = { var = mtui_wealth key = CL_Wealth }
+		set_var_from_key = { var = mtui_nat key = Class_TotalBirth }
+		set_var_from_key = { var = mtui_imm key = Class_TotalIn }
+		set_var_from_key = { var = mtui_emi key = Class_TotalOut }
+		set_var_from_key = { var = mtui_pop_sf key = SF_Total }
+		set_var_from_key = { var = mtui_pop_nm key = NM_Total }
+		set_var_from_key = { var = mtui_pop_re key = RE_Total }
+		set_var_from_key = { var = mtui_pop_bg key = BG_Total }
+		set_var_from_key = { var = mtui_pop_no key = NO_Total }
+		set_var_from_key = { var = mtui_pop_cl key = CL_Total }
+		PREV = {
+			change_variable = { which = mtui_pop which = PREV }
+			change_variable = { which = mtui_popchg which = PREV }
+			change_variable = { which = mtui_wealth which = PREV }
+			change_variable = { which = mtui_nat which = PREV }
+			change_variable = { which = mtui_imm which = PREV }
+			change_variable = { which = mtui_emi which = PREV }
+			change_variable = { which = mtui_pop_sf which = PREV }
+			change_variable = { which = mtui_pop_nm which = PREV }
+			change_variable = { which = mtui_pop_re which = PREV }
+			change_variable = { which = mtui_pop_bg which = PREV }
+			change_variable = { which = mtui_pop_no which = PREV }
+			change_variable = { which = mtui_pop_cl which = PREV }
+		}
+	}
+	mtui_round1 = { var = mtui_nat }
+	mtui_round1 = { var = mtui_imm }
+	mtui_round1 = { var = mtui_emi }
+	export_to_variable = { which = mtui_autonomy value = average_autonomy }
+	mtui_topbar_values = yes       # rounded copies for display (MTUI-topbar_gen.txt)
+}
+
+# Country scope, after Nat_Main: the revenue lines the census does not sum nationally by themselves.
+# MTUI_Special: income that is added to revenue outside the provinces. MTUI_OtherIndirect: what is left of
+# indirect taxation after the lines the budget tooltips list (commerce taxes, tribal tributes, trade post fees...).
+mtui_budget_extra = {
+	set_key = { lhs = MTUI_Special which = TaxD_Teuton }
+	change_key = { lhs = MTUI_Special which = TaxD_HRE }
+	change_key = { lhs = MTUI_Special which = TaxD_Knights }
+	change_key = { lhs = MTUI_Special which = Post_Fees }
+	set_key = { lhs = MTUI_OtherIndirect which = TaxD_Indirect }
+	subtract_key = { lhs = MTUI_OtherIndirect which = TaxD_Fees }
+	subtract_key = { lhs = MTUI_OtherIndirect which = Tariff_Income }
+	subtract_key = { lhs = MTUI_OtherIndirect which = TaxD_ExciseBU }
+	subtract_key = { lhs = MTUI_OtherIndirect which = TaxD_Industry }
+	subtract_key = { lhs = MTUI_OtherIndirect which = TaxD_Obligations }
+}
+
 # Round variable $var$ to 0 or 1 decimals. EU4 variables are fixed point with 3 decimals, so
 # x * 0.001 * 1000 drops the fraction (the whole_part trick); +-0.5 first makes it round.
 mtui_round0 = {

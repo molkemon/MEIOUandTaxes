@@ -1,5 +1,9 @@
 # country 
 on_startup = {
+	if = { # top bar values right away
+		limit = { ai = no }
+		country_event = { id = mtui_ui.2 days = 1 }
+	}
 	if = {
 		limit = {
 			tag = AAA
