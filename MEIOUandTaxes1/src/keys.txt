@@ -12216,3 +12216,7 @@ SkillCapIndu56 : sbu
 SkillCapIndu57 : sbv
 SkillCapIndu58 : sbw
 SkillCapIndu59 : sbx
+Mil_TechCostCache : sby
+Mil_ArtFracCache : sbz
+Prov_LocalAutonomyCache : sca
+Prov_NationalismCache : scb
