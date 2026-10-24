@@ -12282,3 +12282,7 @@ SkillCapIndu56
 SkillCapIndu57
 SkillCapIndu58
 SkillCapIndu59
+Mil_TechCostCache
+Mil_ArtFracCache
+Prov_LocalAutonomyCache
+Prov_NationalismCache

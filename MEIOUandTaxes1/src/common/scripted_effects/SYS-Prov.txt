@@ -103,6 +103,7 @@ Prov_Init = {
 Prov_Main = {
 	Prov_TaxInit = yes # reset vars to 0
 	Prov_PowInit = yes # run some initial, universal calcs
+	export_to_key = { lhs = Prov_NationalismCache value = nationalism } # read once for the Prov_DoLoy calls
 	Prov_Do = { estate = BU }
 	if = {
 		limit = {
