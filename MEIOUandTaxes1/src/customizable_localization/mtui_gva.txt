@@ -85848,6 +85848,258 @@ defined_text = {
 }
 
 defined_text = {
+    name = GVA_TopBar_OtherIndirectL
+    random = no
+    text = {
+        trigger = {
+            check_variable = { which = aou value = 10000 }
+        }
+        localisation_key = GVAP_5
+    }
+    text = {
+        trigger = {
+            check_variable = { which = aou value = 1000 }
+        }
+        localisation_key = GVAP_12
+    }
+    text = {
+        trigger = {
+            check_variable = { which = aou value = 100 }
+        }
+        localisation_key = GVAP_19
+    }
+    text = {
+        trigger = {
+            check_variable = { which = aou value = 10 }
+        }
+        localisation_key = GVAP_26
+    }
+    text = {
+        trigger = {
+            check_variable = { which = aou value = 0 }
+        }
+        localisation_key = GVAP_33
+    }
+    text = {
+        trigger = {
+            NOT = { check_variable = { which = aou value = -9999.999 } }
+        }
+        localisation_key = GVAP_0
+    }
+    text = {
+        trigger = {
+            NOT = { check_variable = { which = aou value = -999.999 } }
+        }
+        localisation_key = GVAP_7
+    }
+    text = {
+        trigger = {
+            NOT = { check_variable = { which = aou value = -99.999 } }
+        }
+        localisation_key = GVAP_14
+    }
+    text = {
+        trigger = {
+            NOT = { check_variable = { which = aou value = -9.999 } }
+        }
+        localisation_key = GVAP_21
+    }
+    text = {
+        localisation_key = GVAP_28
+    }
+}
+
+defined_text = {
+    name = GVA_TopBar_OtherIndirectR
+    random = no
+    text = {
+        trigger = {
+            variable_arithmetic_trigger = {
+                export_to_variable = { which = temp value = religion }
+                subtract_variable = { which = temp which = temp }
+                change_variable = { which = temp which = aou }
+                multiply_variable = { which = temp value = 0.001 }
+                multiply_variable = { which = temp value = 1000 }
+                subtract_variable = { which = temp which = aou }
+                is_variable_equal = { which = temp value = 0 }
+            }
+        }
+        localisation_key = GVAZR_30
+    }
+    text = {
+        trigger = {
+            variable_arithmetic_trigger = {
+                export_to_variable = { which = temp value = religion }
+                subtract_variable = { which = temp which = temp }
+                change_variable = { which = temp which = aou }
+                multiply_variable = { which = temp value = 0.01 }
+                multiply_variable = { which = temp value = 100 }
+                subtract_variable = { which = temp which = aou }
+                is_variable_equal = { which = temp value = 0 }
+            }
+        }
+        localisation_key = GVAZR_31
+    }
+    text = {
+        trigger = {
+            variable_arithmetic_trigger = {
+                export_to_variable = { which = temp value = religion }
+                subtract_variable = { which = temp which = temp }
+                change_variable = { which = temp which = aou }
+                multiply_variable = { which = temp value = 0.1 }
+                multiply_variable = { which = temp value = 10 }
+                subtract_variable = { which = temp which = aou }
+                is_variable_equal = { which = temp value = 0 }
+            }
+        }
+        localisation_key = GVAZR_32
+    }
+    text = {
+        localisation_key = GVAP_0
+    }
+}
+
+defined_text = {
+    name = GVA_TopBar_OtherIndirect
+    random = no
+    text = {
+        trigger = {
+            NOT = { is_variable_equal = { which = aou value = 0 } }
+        }
+        localisation_key = GVA_TopBar_OtherIndirect
+    }
+    text = {
+        localisation_key = GVAZ_533
+    }
+}
+
+defined_text = {
+    name = GVA_TopBar_SpecialIncomeL
+    random = no
+    text = {
+        trigger = {
+            check_variable = { which = aot value = 10000 }
+        }
+        localisation_key = GVAP_5
+    }
+    text = {
+        trigger = {
+            check_variable = { which = aot value = 1000 }
+        }
+        localisation_key = GVAP_12
+    }
+    text = {
+        trigger = {
+            check_variable = { which = aot value = 100 }
+        }
+        localisation_key = GVAP_19
+    }
+    text = {
+        trigger = {
+            check_variable = { which = aot value = 10 }
+        }
+        localisation_key = GVAP_26
+    }
+    text = {
+        trigger = {
+            check_variable = { which = aot value = 0 }
+        }
+        localisation_key = GVAP_33
+    }
+    text = {
+        trigger = {
+            NOT = { check_variable = { which = aot value = -9999.999 } }
+        }
+        localisation_key = GVAP_0
+    }
+    text = {
+        trigger = {
+            NOT = { check_variable = { which = aot value = -999.999 } }
+        }
+        localisation_key = GVAP_7
+    }
+    text = {
+        trigger = {
+            NOT = { check_variable = { which = aot value = -99.999 } }
+        }
+        localisation_key = GVAP_14
+    }
+    text = {
+        trigger = {
+            NOT = { check_variable = { which = aot value = -9.999 } }
+        }
+        localisation_key = GVAP_21
+    }
+    text = {
+        localisation_key = GVAP_28
+    }
+}
+
+defined_text = {
+    name = GVA_TopBar_SpecialIncomeR
+    random = no
+    text = {
+        trigger = {
+            variable_arithmetic_trigger = {
+                export_to_variable = { which = temp value = religion }
+                subtract_variable = { which = temp which = temp }
+                change_variable = { which = temp which = aot }
+                multiply_variable = { which = temp value = 0.001 }
+                multiply_variable = { which = temp value = 1000 }
+                subtract_variable = { which = temp which = aot }
+                is_variable_equal = { which = temp value = 0 }
+            }
+        }
+        localisation_key = GVAZR_30
+    }
+    text = {
+        trigger = {
+            variable_arithmetic_trigger = {
+                export_to_variable = { which = temp value = religion }
+                subtract_variable = { which = temp which = temp }
+                change_variable = { which = temp which = aot }
+                multiply_variable = { which = temp value = 0.01 }
+                multiply_variable = { which = temp value = 100 }
+                subtract_variable = { which = temp which = aot }
+                is_variable_equal = { which = temp value = 0 }
+            }
+        }
+        localisation_key = GVAZR_31
+    }
+    text = {
+        trigger = {
+            variable_arithmetic_trigger = {
+                export_to_variable = { which = temp value = religion }
+                subtract_variable = { which = temp which = temp }
+                change_variable = { which = temp which = aot }
+                multiply_variable = { which = temp value = 0.1 }
+                multiply_variable = { which = temp value = 10 }
+                subtract_variable = { which = temp which = aot }
+                is_variable_equal = { which = temp value = 0 }
+            }
+        }
+        localisation_key = GVAZR_32
+    }
+    text = {
+        localisation_key = GVAP_0
+    }
+}
+
+defined_text = {
+    name = GVA_TopBar_SpecialIncome
+    random = no
+    text = {
+        trigger = {
+            NOT = { is_variable_equal = { which = aot value = 0 } }
+        }
+        localisation_key = GVA_TopBar_SpecialIncome
+    }
+    text = {
+        localisation_key = GVAZ_533
+    }
+}
+
+defined_text = {
     name = GVA_TradeDisplay_SectorEarn1L
     random = no
     text = {
