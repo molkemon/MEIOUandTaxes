@@ -764,6 +764,8 @@
  GVA_TaxD_TimberBU: "[GVA_TaxD_TimberBUL][This.guk.GetValue][GVA_TaxD_TimberBUR]"
  GVA_TaxD_TollBU: "[GVA_TaxD_TollBUL][This.guq.GetValue][GVA_TaxD_TollBUR]"
  GVA_TaxD_Total: "[GVA_TaxD_TotalL][This.dmc.GetValue][GVA_TaxD_TotalR]"
+ GVA_TopBar_OtherIndirect: "[GVA_TopBar_OtherIndirectL][This.aou.GetValue][GVA_TopBar_OtherIndirectR]"
+ GVA_TopBar_SpecialIncome: "[GVA_TopBar_SpecialIncomeL][This.aot.GetValue][GVA_TopBar_SpecialIncomeR]"
  GVA_TradeDisplay_SectorEarn1: "[GVA_TradeDisplay_SectorEarn1L][This.pqb.GetValue][GVA_TradeDisplay_SectorEarn1R]"
  GVA_TradeDisplay_SectorEarn10: "[GVA_TradeDisplay_SectorEarn10L][This.pqh.GetValue][GVA_TradeDisplay_SectorEarn10R]"
  GVA_TradeDisplay_SectorEarn2: "[GVA_TradeDisplay_SectorEarn2L][This.pqc.GetValue][GVA_TradeDisplay_SectorEarn2R]"
