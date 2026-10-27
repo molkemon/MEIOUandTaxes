@@ -173,7 +173,7 @@ Military_GetMaint = {
 		multiply_key = { lhs = $out$41 which = $size$ }
 
 		owner = {
-			export_to_key = { lhs = Tmp_0 value = trigger_value:artillery_fraction }
+			set_key = { lhs = Tmp_0 which = Mil_ArtFracCache } # artillery_fraction, set in POP_Stockpile.0011
 						
 			set_key = { lhs = $out$5 which = PREV }
 			set_key = { lhs = $out$22 which = PREV }
@@ -200,9 +200,8 @@ Military_GetMaint = {
 	]
 	
 	### Military tech modifier on Good costs = (MilTech * 0.005 + 0.5)
-	export_to_key = { lhs = Public_Tmp9 value = mil_tech who = owner }
-	multiply_key = { lhs = Public_Tmp9 value = 0.005 }	
-	change_key = { lhs = Public_Tmp9 value = 0.5 }
+	set_key = { lhs = Mil_TechCostCache which = owner } # set per country in POP_Stockpile.0011
+	set_key = { lhs = Public_Tmp9 which = Mil_TechCostCache }
 	
 	### Modify certain good needs by mil tech modifier
 	multiply_key = { lhs = $out$22 which = Public_Tmp9 } # Military Product
@@ -272,7 +271,7 @@ Military_GetBuild = {
 		multiply_key = { lhs = $out$41 which = $size$ }
 		
 		owner = { # Make artillery more expensive.
-			export_to_key = { lhs = Tmp_0 value = trigger_value:artillery_fraction }
+			set_key = { lhs = Tmp_0 which = Mil_ArtFracCache } # artillery_fraction, set in POP_Stockpile.0011
 						
 			set_key = { lhs = $out$5 which = PREV }
 			set_key = { lhs = $out$22 which = PREV }
@@ -300,9 +299,8 @@ Military_GetBuild = {
 
 	
 	### Military tech modifier on Good costs = (MilTech * 0.005 + 0.5)
-	export_to_key = { lhs = Public_Tmp9 value = mil_tech who = owner }
-	multiply_key = { lhs = Public_Tmp9 value = 0.005 }
-	change_key = { lhs = Public_Tmp9 value = 0.5 }
+	set_key = { lhs = Mil_TechCostCache which = owner } # set per country in POP_Stockpile.0011
+	set_key = { lhs = Public_Tmp9 which = Mil_TechCostCache }
 	
 	### Modify certain good needs by mil tech modifier
 	multiply_key = { lhs = $out$22 which = Public_Tmp9 } # Military Product

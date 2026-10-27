@@ -207044,4 +207044,52 @@ defined_text = {
     text = {
         localisation_key = GV_0
     }
+}defined_text = {
+    name = GV_Mil_TechCostCache
+    random = no
+    text = {
+        trigger = {
+            NOT = { is_variable_equal = { which = sby value = 0 } }
+        }
+        localisation_key = GV_Mil_TechCostCache
+    }
+    text = {
+        localisation_key = GV_0
+    }
+}defined_text = {
+    name = GV_Mil_ArtFracCache
+    random = no
+    text = {
+        trigger = {
+            NOT = { is_variable_equal = { which = sbz value = 0 } }
+        }
+        localisation_key = GV_Mil_ArtFracCache
+    }
+    text = {
+        localisation_key = GV_0
+    }
+}defined_text = {
+    name = GV_Prov_LocalAutonomyCache
+    random = no
+    text = {
+        trigger = {
+            NOT = { is_variable_equal = { which = sca value = 0 } }
+        }
+        localisation_key = GV_Prov_LocalAutonomyCache
+    }
+    text = {
+        localisation_key = GV_0
+    }
+}defined_text = {
+    name = GV_Prov_NationalismCache
+    random = no
+    text = {
+        trigger = {
+            NOT = { is_variable_equal = { which = scb value = 0 } }
+        }
+        localisation_key = GV_Prov_NationalismCache
+    }
+    text = {
+        localisation_key = GV_0
+    }
 }
